@@ -38,7 +38,7 @@ public class S06Ejerprop19 {
     private static void matrizAleatoria(int[][] matriz) {
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[0].length; j++) {
-                matriz[i][j] = (int)(Math.random() + 5);
+                matriz[i][j] = (int)(Math.random() * 5);
             }
         }
     }
